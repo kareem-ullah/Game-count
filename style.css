@@ -1,0 +1,44 @@
+body{
+    background-color: #000000 !important;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.divbtn{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.row2{
+    border: 5px solid #cfcddb;
+    padding: 30px 40px;
+}
+span{
+    padding: 0px 20px;
+    background-color: 976d2;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+#messages{
+    display: none;
+    border: 4px solid #43339b;
+}
+.div1btn{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:grey !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+.abc{
+    border: 4px solid #8878eb;
+}
