@@ -38,9 +38,9 @@ function stop() {
         clearInterval(interval3);
         messages.style.display = "block";
         if (randomNum1 == randomNum2 && randomNum2 == randomNum3) {
-            messages.innerHTML = "ap jeet gye ";
+            messages.innerHTML = "Mubark Ho...";
         } else {
-            messages.innerHTML = "ap har gye";
+            messages.innerHTML = "Sorry!!!";
         }
         setTimeout(() => {
             location.reload();

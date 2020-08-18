@@ -1,5 +1,5 @@
 body{
-    background-color: #000000 !important;
+    background-color: rgb(116, 53, 175) !important;
 }
 .main{
     display: flex;
@@ -14,14 +14,15 @@ body{
     margin-top: 20px;
 }
 .row2{
-    border: 5px solid #cfcddb;
+    border: 5px solid white;
+    border-radius: 40px;
     padding: 30px 40px;
+    background-color: black;
 }
 span{
     padding: 0px 20px;
-    background-color: 976d2;
-    color: aliceblue;
-    border-radius: 10px;
+    border-radius: 2em;
+    color:white;
     margin-bottom: 10px;
     
     
@@ -29,16 +30,23 @@ span{
 #messages{
     display: none;
     border: 4px solid #43339b;
+    background-color: black;
+    font-weight: bold !important;
 }
 .div1btn{
     display: flex;
     justify-content: center;
 }
 .btn{
-    background-color:grey !important;
-    font-weight: 600 !important;
+    background-color:black !important;
+    font-size: 30px !important;
     color: white !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    font-style: oblique;
+    border: 5px solid white !important;
+    font-weight: bold !important;
 }
 .abc{
-    border: 4px solid #8878eb;
+    border: 4px solid white;
 }
